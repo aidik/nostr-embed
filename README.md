@@ -17,7 +17,7 @@ Include the `nostr-embed.js` script and use the `<nostr-embed>` custom element i
 <nostr-embed note-id="Note ID in hex"></nostr-embed>
 ```
 
-### Hosting nost-embed locally
+### Hosting nostr-embed locally
 ```html
 <script src="/local/path/to/nostr-embed.min.js"></script>
 <nostr-embed note-id="Note ID in hex"></nostr-embed>
@@ -56,19 +56,19 @@ To work on `nostr-embed`, follow these steps:
 
    After building dev chnages will be monitored and the `nostr-embed.js` file will be available in the `public` directory.
 
-5.  **Build Build**
+5. **Build Build**
 
    Build the project to generate the `nostr-embed.min.js` file:
 
    ```bash
-   npm run dev
+   npm run build
    ```
 
    After building, the `nostr-embed.min.js` file will be available in the `dist` directory.
 
 ## Thank you
 
-I would like to thank to @dtonon. I spend a long time looking at [Oroclo](https://github.com/dtonon/oracolo/).
+I want to thank to [![dtonon](https://avatars.githubusercontent.com/u/89577423?s=24 "dtonon") **dtonon**](https://github.com/dtonon/) -- I spend a long time looking at [Oracolo](https://github.com/dtonon/oracolo/).
 
 ## License
 
