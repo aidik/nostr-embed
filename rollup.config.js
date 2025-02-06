@@ -4,7 +4,7 @@ import commonjs from '@rollup/plugin-commonjs';
 import terser from '@rollup/plugin-terser';
 
 export default {
-  input: 'src/NostrEmbed.svelte', // Entry point is the Svelte component
+  input: ['src/index.js'], // Entry point is the Svelte component
   output: [
     {
       file: 'public/nostr-embed.js', // Output file for your CDN
