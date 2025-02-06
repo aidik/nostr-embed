@@ -14,13 +14,13 @@ Include the `nostr-embed.js` script and use the `<nostr-embed>` custom element i
 ### Using a CDN
 ```html
 <script src="https://cdn.jsdelivr.net/gh/aidik/nostr-embed/dist/nostr-embed.min.js"></script>
-<nostr-embed note-id="Note ID in hex"></nostr-embed>
+<nostr-embed note-id="Note ID in hex or nevent"></nostr-embed>
 ```
 
 ### Hosting nostr-embed locally
 ```html
 <script src="/local/path/to/nostr-embed.min.js"></script>
-<nostr-embed note-id="Note ID in hex"></nostr-embed>
+<nostr-embed note-id="Note ID in hex or nevent"></nostr-embed>
 ```
 
 - **`note-id`**: Replace `"Note ID in hex"` with the hexadecimal ID of the Nostr Note you wish to embed.
